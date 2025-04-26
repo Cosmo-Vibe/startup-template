@@ -1,6 +1,6 @@
-# Modern React Company Portfolio Template
+# Modern React Startup Template
 
-This project is a modern React implementation of a company portfolio template, built with:
+This project is a modern React implementation of a startup template, built with:
 
 - React 18
 - TypeScript
