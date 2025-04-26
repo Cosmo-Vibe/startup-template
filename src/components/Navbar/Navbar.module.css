@@ -1,0 +1,49 @@
+.navbarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+
+.logo {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.navLinks {
+  display: none;
+  
+  @media (width >= 768px) {
+    display: flex;
+  }
+}
+
+.navItem {
+  display: block;
+  padding: 1rem;
+  transition: background-color 0.2s;
+  
+  &:hover {
+    background-color: #ccc;
+  }
+}
+
+.menuButton {
+  padding: 1rem;
+  display: block;
+  
+  @media (width >= 768px) {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+export { default as Navbar } from './Navbar';
+export { default as Sidebar } from './Sidebar';
+export { default as Hero } from './Hero';
+export { default as About } from './About';
+export { default as Promo } from './Promo';
+export { default as Team } from './Team';
+export { default as Statistics } from './Statistics';
+export { default as Work } from './Work';
+export { default as ImageModal } from './ImageModal';
+export { default as Skills } from './Skills';
+export { default as Pricing } from './Pricing';
+export { default as Contact } from './Contact';
+export { default as Footer } from './Footer';
